@@ -1,0 +1,36 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+.header{
+    display: flex;
+    background-color: antiquewhite;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+}
+
+.logo{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    font-size: xx-large;
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 8px;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    background-color: aliceblue;
+    padding: 10px;
+}

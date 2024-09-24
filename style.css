@@ -1,71 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
-  height: 100vh;
-  margin: 0;
-  overflow: hidden;
-  font-family: Roboto, sans-serif;
-  display: flex;
-  flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 .header{
-
-    padding: 15px;
-    background-color: purple;
-    color: white;
-    font-size: 32px;
-    font-weight: 900;
-}
-
-.footer{
+    background-color: #1F2937;
     display: flex;
-    justify-content: center;
-    color: purple;
-    padding: 15px;
-    background-color: gainsboro;
-}
-
-.sidebar{
-    width: 300px;
-    box-sizing: border-box;
-    background-color: royalblue;
-    flex-shrink: 0;
-}
-
-ul{
-    list-style-type: none;
-    padding: 0px 0px 0 10px;
     justify-content: space-between;
+    align-items: center;
+    padding: 20px 115px;
 }
 
-li{
-    margin: 10px 0 10px 0;
-}
-
-a{
-    text-decoration: none;
-    color: white;
-}
-
-.container{
+.left-header, .right-header {
     display: flex;
-    flex: 1;
-    flex-direction: row;
-}
-
-.content{
-    display: flex;
-    flex-wrap: wrap; 
-    flex: 1; 
-    padding: 16px;
+    align-items: center;
     gap: 16px;
 }
 
-.card {
-    box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.06);
-    border-radius: 4px;
-    flex: 1 1 25%;
-    margin: 16px;
-    box-sizing: border-box;
+.logo{
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
   }
+
+a{
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}

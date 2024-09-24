@@ -1,36 +1,71 @@
-body{
-    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 .header{
-    display: flex;
-    background-color: antiquewhite;
-    justify-content: space-between;
-    align-items: center;
-    padding: 8px;
+
+    padding: 15px;
+    background-color: purple;
+    color: white;
+    font-size: 32px;
+    font-weight: 900;
 }
 
-.logo{
+.footer{
+    display: flex;
     justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: red;
-    font-weight: bold;
-    font-size: xx-large;
-    background-color: whitesmoke;
-    padding: 10px;
+    color: purple;
+    padding: 15px;
+    background-color: gainsboro;
+}
+
+.sidebar{
+    width: 300px;
+    box-sizing: border-box;
+    background-color: royalblue;
+    flex-shrink: 0;
 }
 
 ul{
     list-style-type: none;
-    display: flex;
-    gap: 8px;
-    margin: 0;
-    padding: 0;
+    padding: 0px 0px 0 10px;
+    justify-content: space-between;
+}
+
+li{
+    margin: 10px 0 10px 0;
 }
 
 a{
     text-decoration: none;
-    background-color: aliceblue;
-    padding: 10px;
+    color: white;
 }
+
+.container{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap; 
+    flex: 1; 
+    padding: 16px;
+    gap: 16px;
+}
+
+.card {
+    box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.06);
+    border-radius: 4px;
+    flex: 1 1 25%;
+    margin: 16px;
+    box-sizing: border-box;
+  }
